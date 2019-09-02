@@ -28,9 +28,8 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href=""
+          href="/about"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         > About Me </Button>
       </ListItem>
@@ -44,13 +43,13 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/finance101" className={classes.dropdownLink}>
               Finance 101
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/investing" className={classes.dropdownLink}>
               Investing
           </Link>,
-          <Link to="/" className={classes.dropdownLink}>
+          <Link to="/savings" className={classes.dropdownLink}>
           Savings Advice
         </Link>,
           ]}
@@ -58,9 +57,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href={"/login-page"}
+          href={"/login"}
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         > Login
         </Button>

@@ -19,8 +19,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/login-page" component={LoginPage} />
-      <Route path="/finance101-page" component={Finance101Page} />
+      <Route path="/login" component={LoginPage} />
+      <Route path="/finance101" component={Finance101Page} />
       <Route path="/" component={Components} />
     </Switch>
   </Router>,

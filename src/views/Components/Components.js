@@ -53,9 +53,13 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>woke to wealth.</h1>
+                <h1 className={classes.title}>
+                  <Link to="/" component={Components}>
+                    woke to wealth.
+                  </Link>
+                </h1>
                 <h3 className={classes.subtitle}>
-                  Empowering those who think finance isn't for them.
+                  Empowering those who think finance isn`t for them.
                 </h3>
               </div>
             </GridItem>
