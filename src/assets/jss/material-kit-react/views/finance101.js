@@ -2,7 +2,7 @@ import { container, title } from "assets/jss/material-kit-react.js";
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
-const profilePageStyle = {
+const finance101PageStyle = {
   container,
   profile: {
     textAlign: "center",
@@ -56,7 +56,10 @@ const profilePageStyle = {
   navWrapper: {
     margin: "20px auto 50px auto",
     textAlign: "center"
+  },
+  navLink: {
+    color: "black"
   }
 };
 
-export default profilePageStyle;
+export default finance101PageStyle;

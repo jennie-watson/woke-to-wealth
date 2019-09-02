@@ -18,6 +18,9 @@ import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import money from "assets/img/money.jpg";
+import barefootbuckets from "assets/img/barefoot-buckets.png";
+import barefootinvestor from "assets/img/barefoot-investor.jpg";
+
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";
 import studio3 from "assets/img/examples/studio-3.jpg";
@@ -79,13 +82,12 @@ export default function ProfilePage(props) {
                   future! Finance 101 is what I consider to be the first steps
                   towards getting your financial life in order. Since everyone
                   is on different journeys and stages of their financial lives,
-                  these // eslint-disable-next-line react/no-unescaped-entities
-                  first steps won`t necessarily relate to everyone, whether this
-                  is making and sticking to a realistic budget, setting up a
-                  high interest savings account, paying down debt fast or
-                  changing KiwiSaver providers so your money works smarter and
-                  not harder for you. These are all important steps to take when
-                  managing your money.
+                  these first steps won`t necessarily relate to everyone,
+                  whether this is making and sticking to a realistic budget,
+                  setting up a high interest savings account, paying down debt
+                  fast or changing KiwiSaver providers so your money works
+                  smarter and not harder for you. These are all important steps
+                  to take when managing your money.
                 </p>
               </div>
             </>
@@ -101,26 +103,28 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
+                            {/* <div>
+                              <img
+                                src={barefootbuckets}
+                                alt="..."
+                                className={navImageClasses}
+                              />
+                            </div> */}
                             <img
                               alt="..."
-                              src={studio1}
+                              src={barefootbuckets}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio2}
+                              src={barefootinvestor}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio5}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={studio4}
+                              src={barefootinvestor}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -133,7 +137,7 @@ export default function ProfilePage(props) {
                               achieve your financial goals sooner. I recommend
                               using the{" "}
                               <a
-                                className="nav-link"
+                                className="navLink"
                                 href="https://sorted.org.nz/#/tools/budgeting-tool"
                               >
                                 Sorted Budgeting Tool
@@ -148,7 +152,7 @@ export default function ProfilePage(props) {
                               into each account are 60% Daily Expenses, 10%
                               Splurge, 10% Smile, 20% Fire Extinguisher.{" "}
                               <a
-                                className="nav-link"
+                                className="navLink"
                                 href="https://sustainable-living.blog/2019/02/24/barefoot-budgeting-understanding-buckets/"
                               >
                                 Here
@@ -201,11 +205,11 @@ export default function ProfilePage(props) {
                               researching high interest savings accounts and
                               term deposits that are available currently through{" "}
                               <a
-                                className="nav-link"
+                                className="navLink"
                                 href="https://www.interest.co.nz"
                               >
                                 Interest.
-                              </a>
+                              </a>{" "}
                               Inflation is another factor to consider when
                               choosing a savings account. Since 2000 the average
                               inflation rate in NZ has averaged around 2.7%.
@@ -275,7 +279,7 @@ export default function ProfilePage(props) {
                               and a lot of people are unaware of how much they
                               are really being charged. I would try this{" "}
                               <a
-                                className="nav-link"
+                                className="navLink"
                                 href="https://sorted.org.nz/tools/kiwisaver-fees-calculator"
                                 KiwiSaver
                                 fees
@@ -284,7 +288,7 @@ export default function ProfilePage(props) {
                               to see how much you are being charged in fees
                               currently. I also highly recommend{" "}
                               <a
-                                className="nav-link"
+                                className="navLink"
                                 href="https://simplicity.kiwi/"
                               >
                                 Simplicity
