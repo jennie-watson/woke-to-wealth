@@ -18,6 +18,9 @@ import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import money from "assets/img/money.jpg";
+import nzmoney from "assets/img/nzmoney.jpg";
+import kiwisaverfunds from "assets/img/kiwisaverfunds.jpg";
+import simplicity from "assets/img/simplicity.png";
 import barefootbuckets from "assets/img/barefoot-buckets.png";
 import barefootinvestor from "assets/img/barefoot-investor.jpg";
 
@@ -103,31 +106,19 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
-                            {/* <div>
-                              <img
-                                src={barefootbuckets}
-                                alt="..."
-                                className={navImageClasses}
-                              />
-                            </div> */}
                             <img
                               alt="..."
                               src={barefootbuckets}
                               className={navImageClasses}
                             />
+                          </GridItem>
+                          {/* <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
                               src={barefootinvestor}
                               className={navImageClasses}
                             />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src={barefootinvestor}
-                              className={navImageClasses}
-                            />
-                          </GridItem>
+                          </GridItem> */}
                           <div className={classes.description}>
                             <p>
                               Budgeting is a way of staying in control of your
@@ -169,10 +160,10 @@ export default function ProfilePage(props) {
                       tabIcon: AccountBalanceWallet,
                       tabContent: (
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
+                          {/* <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work1}
+                              src={nzmoney}
                               className={navImageClasses}
                             />
                             <img
@@ -185,18 +176,18 @@ export default function ProfilePage(props) {
                               src={work3}
                               className={navImageClasses}
                             />
-                          </GridItem>
+                          </GridItem> */}
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={nzmoney}
                               className={navImageClasses}
                             />
-                            <img
+                            {/* <img
                               alt="..."
-                              src={work5}
+                              src={nzmoney}
                               className={navImageClasses}
-                            />
+                            /> */}
                           </GridItem>
                           <div className={classes.description}>
                             <p>
@@ -229,22 +220,22 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={simplicity}
                               className={navImageClasses}
                             />
-                            <img
+                            {/* <img
                               alt="..."
                               src={studio3}
                               className={navImageClasses}
-                            />
+                            /> */}
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work2}
+                              src={kiwisaverfunds}
                               className={navImageClasses}
                             />
-                            <img
+                            {/* <img
                               alt="..."
                               src={work1}
                               className={navImageClasses}
@@ -253,7 +244,7 @@ export default function ProfilePage(props) {
                               alt="..."
                               src={studio1}
                               className={navImageClasses}
-                            />
+                            /> */}
                           </GridItem>
                           <div className={classes.description}>
                             <p>
